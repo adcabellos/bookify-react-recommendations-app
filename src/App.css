@@ -13,6 +13,119 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+
+* {
+  font-family: 'Shippori Mincho', serif;
+  font-weight:bold;
+}
+
+label {
+  font-variant: small-caps;
+  font-size:x-large;
+  margin-bottom: 1rem;
+}
+
+button, select {
+  cursor: pointer;
+
+}
+
+.warning {
+  color: red;
+}
+
+body{
+  background-color: #c1beb4;
+
+}
+img{
+  max-width: 15rem;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recommend-div, .login-div, .register-div {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 30rem; */
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+#recommendations-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.book-item{
+  background-color: rgba(255, 255, 255, 0.2);
+  
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+#most-voted-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+#register-login-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.white-title{
+  color: white;
+}
+
+.logo-title {
+  color: white;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.genre-mood-div{
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  align-items: center;
+}
+
+.get-inspired-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register-div, .login-div {
+  background-color: #3b4543bd; 
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  border-color: white;
+  border: groove 2px;
+}
+
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
